@@ -1,0 +1,69 @@
+body
+{
+    background-color: darkblue;    
+   
+}
+
+button
+{
+    padding: 10px;
+    border-radius:10px;
+    background-color: aqua;
+}
+
+button:hover
+{
+    cursor: pointer;
+    background-color: aquamarine;
+}
+
+input
+{
+    border-radius: 3px;
+    border: 2px solid aquamarine; 
+}
+
+.sel
+{
+    position: absolute;
+    top:10%;
+    right: 0;
+    display: flex;
+    
+    
+}
+
+.colorChange
+{
+    
+    width: 40px;
+    height: 20px;
+    border: 1px solid black;
+    border-radius:5px;
+    background-color: blue;
+    margin: 5px;
+}
+
+#red
+{
+    background-color: red;
+    cursor: pointer;
+}
+
+#green
+{
+    background-color: green;
+     cursor: pointer;
+}
+
+#blue
+{
+    background-color: blue;
+     cursor: pointer;
+}
+
+#yellow
+{
+    background-color: yellow;
+     cursor: pointer;
+}
